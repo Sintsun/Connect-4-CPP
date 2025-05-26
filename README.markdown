@@ -36,7 +36,7 @@ A console-based implementation of the classic **Connect Four** game in C++. Two 
    - The board is a 6x7 grid, with columns labeled **A-G** and rows numbered **1-6**.
    - Players enter a column (A-G) to drop their checker, which falls to the lowest empty slot.
    - Enter `Q` during a turn to quit (requires confirmation).
-   ![Gameplay Board](images/game.png)  
+
 3. **Winning Conditions**:
    - Connect **four checkers** in a row horizontally, vertically, or diagonally to win.
    - If all 42 slots are filled without a winner, the game ends in a **draw**.
