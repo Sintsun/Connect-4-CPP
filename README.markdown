@@ -21,14 +21,14 @@ A console-based implementation of the classic Connect Four game in C++. Two play
 ## How to Play
 
 1. **Start the Game**:
-
+    ![main](images/mainmenu.png)
    - Launch the program to see the main menu.
    - Select option `[1]` to start a new game.
 
    \[Insert Screenshot 2: Main Menu\] *Place a screenshot of the main menu here, showing the ASCII art and options (1-5). This helps users understand the navigation interface.*
 
 2. **Gameplay**:
-
+     ![game](images/game.png)
    - The board is a 6x7 grid, with columns labeled A-G and rows numbered 1-6.
    - Players take turns entering a column (A-G) to drop their checker (`O` for Player 1, `X` for Player 2).
    - The checker falls to the lowest empty slot in the chosen column.
@@ -40,12 +40,12 @@ A console-based implementation of the classic Connect Four game in C++. Two play
    - If the board fills (42 checkers) without a winner, the game ends in a draw.
 
 4. **Settings**:
-
+    ![game](images/settings.png)
    - Option `[2]` lets you choose which player starts or change checker symbols.
    - Symbols cannot be `+`, `-`, `|`, or space, and both players must have different symbols.
 
 5. **Other Options**:
-
+    ![instructions](images/instructions.png)
    - `[3] Instructions`: View game rules.
    - `[4] Credits`: See the creator’s message.
    - `[5] Exit`: Quit the program.
@@ -64,5 +64,3 @@ A console-based implementation of the classic Connect Four game in C++. Two play
 Created with love by Sintsun. Inspired by the classic Connect Four game.
 
 ---
-
-*Feel free to contribute by adding features like AI opponents or graphical interfaces!*
